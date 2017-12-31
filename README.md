@@ -8,7 +8,7 @@ Install compiled JAR file in the [install-dir]/lib folder and add a module to th
 
 ```xml
 <HTTPProvider>
-    <BaseClass>com.server-labs.wms.plugin.HTTPReloadSchedule</BaseClass>
+    <BaseClass>com.serverlabs.wms.plugin.HTTPReloadSchedule</BaseClass>
     <RequestFilters>scheduleloader*</RequestFilters>
     <AuthenticationMethod>none</AuthenticationMethod>
 </HTTPProvider>
