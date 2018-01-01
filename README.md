@@ -1,7 +1,9 @@
 # Wowza ReloadSchedule Module
+The **ReloadSchedule** module for [Wowza Streaming Engine™ media server software](https://www.wowza.com/products/streaming-engine) adds custom HTTP Provider
+to control (reload or unload) stream schedules created by the [StreamPublisher Module](https://www.wowza.com/docs/how-to-schedule-streaming-with-wowza-streaming-engine-streampublisher).
 
 ## Prerequisites
-Wowza Streaming Engine 4.0.0 or later is required.
+Wowza Streaming Engine 4.0.0 or later is recommended.
 
 ## Usage
 Install compiled JAR file in the [install-dir]/lib folder and add a module to the [install-dir]/conf/VHost.xml file under HostPort 8086 section as follows:
