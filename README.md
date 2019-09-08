@@ -34,7 +34,12 @@ http://[wowza-address]:8086/scheduleloader?action=load&app=APP-NAME
 Unload schedule:
 http://[wowza-address]:8086/scheduleloader?action=unload&app=APP-NAME
 
+## Another module with same functionality
+HttpProvider was added to [Wowza StreamPublisher module](https://github.com/WowzaMediaSystems/wse-plugin-streampublisher),
+
 ## More resources
+[Wowza StreamPublisher module](https://github.com/WowzaMediaSystems/wse-plugin-streampublisher)
+
 [How to schedule streaming with Wowza Streaming Engine (StreamPublisher)](https://www.wowza.com/docs/how-to-schedule-streaming-with-wowza-streaming-engine-streampublisher)
 
 [How to create an HTTP Provider](https://www.wowza.com/docs/how-to-create-an-http-provider)
